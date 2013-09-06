@@ -1,2 +1,6 @@
 source 'http://rubygems.org'
-gem 'rack'
+
+gem "sinatra", :require => "sinatra/base"
+gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
+gem "therubyracer"
+gem 'coffee-script'
