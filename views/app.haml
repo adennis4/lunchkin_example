@@ -1,0 +1,15 @@
+!!!
+%html{ 'ng-app' => 'LunchkinApp' }
+  %head
+    %title Lunchkin
+
+  .first{ 'ng-controller' => 'MonsterCtrl' }
+    %input{ 'ng-model' => 'monster' }
+    %button{ 'ng-click' => 'submitMonster(monster)' } Share Monster!
+    %p {{monsterName}}
+
+  .second{ 'ng-controller' => 'DoppelgangerCtrl' }
+    {{monsterName}}
+
+%script{ src: '//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js' }
+= js :main
