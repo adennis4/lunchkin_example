@@ -7,6 +7,8 @@ GEM
     coffee-script-source (1.6.2)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    haml (4.0.3)
+      tilt
     jsmin (1.0.1)
     libv8 (3.11.8.17)
     multi_json (1.7.6)
@@ -35,6 +37,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
+  haml
   sinatra
   sinatra-assetpack
   therubyracer
